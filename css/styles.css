@@ -1,0 +1,41 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	font-family: "Poppins", "Arial";
+}
+.contenier {
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+.citenav {
+	display: flex;
+	justify-content: space-between;
+}
+.citenav__logo {
+	text-decoration: none;
+}
+.app {
+	color: #fcae61;
+}
+.lab {
+	color: #242f51;
+}
+.hed {
+	font-size: 30px;
+}
+.box__list {
+	display: flex;
+	list-style-type: none;
+	margin-right: 57px;
+}
+.box__list--menu {
+	margin-left: 25px;
+}
+
